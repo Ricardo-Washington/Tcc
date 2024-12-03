@@ -18,7 +18,10 @@
         <item name="android:textColor">@color/cinza_text</item>
         <item name="android:textSize">20dp</item>
     </style>
-    <style name="txtView">
-
+    <style name="butto_login">
+        <item name="backgroundTint">@color/laranjatop</item>
+        <item name="fontFamily">@font/anton</item>
+        <item name="cornerRadius">10dp</item>
+        <item name="android:textColor">@color/white</item>
     </style>
 </resources>

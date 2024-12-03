@@ -74,7 +74,7 @@
             android:textSize="14sp"
             />
         <androidx.appcompat.widget.AppCompatEditText
-            android:id="@+id/edtNome"
+            android:id="@+id/edtnome"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginTop="20dp"
@@ -84,7 +84,7 @@
             android:background="@drawable/custon_input"
             android:drawableStart="@drawable/ic_person1"
             android:drawablePadding="12dp"
-            android:hint="Senha"
+            android:hint="Nome"
             android:inputType="textPersonName"
             android:textSize="14sp"
             />
