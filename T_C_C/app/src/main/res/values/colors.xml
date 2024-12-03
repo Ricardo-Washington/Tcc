@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="laranjatop">#DCE94B00</color>
+    <color name="branco_transparente">#48FFFFFF</color>
+    <color name="transparente">#00FFFFFF</color>
+    <color name="cinza_cadastro">#E8909090</color>
+    <color name="cinza_text">#DA202E2E</color>
+    <color name="focu">#F2484D64</color>
+    <color name="esqueci">#E4475450</color>
+</resources>

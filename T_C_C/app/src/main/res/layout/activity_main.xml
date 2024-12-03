@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backbar"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imginicio"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="248dp"
+        android:foregroundGravity="center_vertical|center_horizontal"
+        android:src="@drawable/barbearia1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtHorario2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
+        android:fontFamily="@font/anton"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="HORÁRIO"
+        android:textColor="@color/branco_transparente"
+        android:textSize="85dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/txtmarca" />
+
+    <TextView
+        android:id="@+id/txtmarca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="308dp"
+        android:fontFamily="@font/anton"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="AGENDE SEU"
+        android:textColor="@color/laranjatop"
+        android:textSize="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtHorario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/anton"
+        android:foregroundGravity="center_vertical|center_horizontal"
+        android:gravity="center"
+        android:text="HORÁRIO"
+        android:textColor="@color/white"
+        android:textSize="85dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/txtmarca" />
+
+    <Button
+        android:id="@+id/btcadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="56dp"
+        android:backgroundTint="@color/transparente"
+        android:fontFamily="@font/anton"
+        android:text="Cadastrar-se"
+        android:textColor="@color/cinza_cadastro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btMarcar"
+        style="@style/butto_inicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:text="Marca Horário"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtmarca" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

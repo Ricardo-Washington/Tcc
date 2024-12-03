@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">T_C_C</string>
+
+    <style name="email_edt">Email</style>
+</resources>
